@@ -1528,13 +1528,13 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-[600px]">
+      <DialogContent className="sm:max-w-[1000px]">
         <DialogHeader>
           <DialogTitle>Interactive Watch Demo</DialogTitle>
           <DialogDescription>See how Wrist Connect works in real-world scenarios</DialogDescription>
         </DialogHeader>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gasm:p-2 p-6">
           <div className="md:col-span-1">
             <div className="space-y-4">
               <h3 className="text-lg font-medium">Scenarios</h3>
@@ -1544,7 +1544,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                     key={key}
                     className={`flex items-center gap-2 w-full p-2 rounded-md text-left ${
                       currentScenario === key
-                        ? "bg-teal-100 text-teal-800"
+                        ? "bg-[#FEFAE0]  text-[#DCA47C] "
                         : "bg-gray-100 hover:bg-gray-200 text-gray-800"
                     }`}
                     onClick={() => setCurrentScenario(key as keyof typeof scenarios)}
@@ -1591,7 +1591,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                         <div className="absolute inset-0 flex flex-col text-white p-3">
                           <div className="text-xs font-medium mb-1 flex justify-between items-center">
                             <span>10:42 AM</span>
-                            <span className="text-teal-400">●</span>
+                            <span className="text-[#FEFAE0] ">●</span>
                           </div>
 
                           <div className="flex-1 overflow-hidden">

@@ -42,7 +42,7 @@ export default function CommunicationsPage() {
             </TabsList>
 
             <TabsContent value="messages" className="space-y-4">
-              <div className="grid gap-6 md:grid-cols-3">
+              <div className="grid gasm:p-2 p-6 md:grid-cols-3">
                 <div className="md:col-span-1">
                   <Card>
                     <CardHeader>

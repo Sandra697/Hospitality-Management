@@ -32,7 +32,7 @@ export default function RootLayout({
           </div>
           
           {/* Main content area with left padding to account for sidebar */}
-          <main className="flex-1 ml-64 w-full"
+          <main className="flex-1 overflow-x-hidden sm:ml-64 w-full"
            style={{
             backgroundImage: 'url(https://img.freepik.com/free-vector/abstract-watercolor-marble-background_91008-185.jpg?ga=GA1.1.1562725796.1744005327&semt=ais_country_boost&w=740)',
             backgroundSize: 'cover',

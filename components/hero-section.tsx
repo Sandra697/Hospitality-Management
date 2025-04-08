@@ -9,7 +9,7 @@ export default function HeroSection() {
   const [demoOpen, setDemoOpen] = useState(false)
 
   return (
-    <section className="relative pt-20 pb-24  overflow-hidden p-6">
+    <section className="relative pt-20 pb-24  overflow-hidden sm:p-2 p-6">
       {/* Background elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white pointer-events-none"></div>
       <div className="absolute top-40 right-[20%] w-64 h-64 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
@@ -84,7 +84,7 @@ export default function HeroSection() {
                       <div className="absolute inset-0 flex flex-col text-white p-3">
                         <div className="text-xs font-medium mb-1 flex justify-between items-center">
                           <span>10:42 AM</span>
-                          <span className="text-teal-400">●</span>
+                          <span className="text-[#FEFAE0] ">●</span>
                         </div>
 
                         <div className="text-[10px] font-medium mb-1">URGENT TASK</div>

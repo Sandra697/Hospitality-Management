@@ -1,32 +1,32 @@
 "use client"
 
 import { useState } from "react"
-import Link from "next/link"
+// import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+// import { Badge } from "@/components/ui/badge"
 import HeroSection from "@/components/hero-section"
 import FeatureShowcase from "@/components/feature-showcase"
 import BenefitsSection from "@/components/benefits-section"
-import TestimonialSection from "@/components/testimonial-section"
-import PricingSection from "@/components/pricing-section"
+// import TestimonialSection from "@/components/testimonial-section"
+// import PricingSection from "@/components/pricing-section"
 import ImplementationProcess from "@/components/implementation-process"
-import FaqSection from "@/components/faq-section"
+// import FaqSection from "@/components/faq-section"
 import IntegrationSection from "@/components/integration-section"
 // import ClientLogos from "@/components/client-logos"
 import CaseStudySection from "@/components/case-study-section"
 // import Footer from "@/components/footer"
 import WatchDemo from "@/components/watchDemo"
-import { Menu, X } from "lucide-react"
+// import { Menu, X } from "lucide-react"
 
 export default function Watch() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [demoOpen, setDemoOpen] = useState(false)
 
   return (
-    <div className="flex overflow-y-hidden min-h-screen flex-col font-medium text-[0.8rem] ">
-     
+    <div className="flex overflow-y-hidden min-h-s
+    creen flex-col font-medium text-[0.8rem] ">
 
-      <main className="flex-1 overflow-x-hidden p-6 ml-4 pt-20">
+      <main className="flex-1 overflow-x-hidden sm:p-2 p-6  pt-10">
         <HeroSection />
 
         {/* <ClientLogos /> */}
@@ -41,13 +41,13 @@ export default function Watch() {
 
         <IntegrationSection />
 
-        <PricingSection />
+        {/* <PricingSection /> */}
 
         <ImplementationProcess />
 
         {/* <FaqSection /> */}
 
-        <section className="py-24 bg-gradient-to-r from-teal-500 to-emerald-500">
+        <section className="py-12 bg-gradient-to-r from-teal-500 to-emerald-500">
           <div className="container">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h2 className="text-4xl font-bold tracking-tight mb-6">Ready to Transform Your Hotel Operations?</h2>

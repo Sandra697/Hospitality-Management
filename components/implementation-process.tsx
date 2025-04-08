@@ -47,14 +47,14 @@ export default function ImplementationProcess() {
   ]
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-8">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
             Implementation
           </div>
-          <h2 className="text-4xl font-bold tracking-tight mb-4">Simple 6-Step Process</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-xl font-bold tracking-tight mb-4">Simple 6-Step Process</h2>
+          <p className="text-[0.8rem] text-gray-600 max-w-3xl mx-auto">
             We handle everything from consultation to ongoing support for a smooth transition
           </p>
         </div>

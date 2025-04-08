@@ -60,7 +60,7 @@ export default function PricingSection() {
   ]
 
   return (
-    <section id="pricing" className="py-24">
+    <section id="pricing" className="py-12">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
@@ -97,7 +97,7 @@ export default function PricingSection() {
                 <ul className="space-y-3">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start gap-3">
-                      <div className="h-5 w-5 rounded-full bg-teal-100 flex-shrink-0 flex items-center justify-center mt-0.5">
+                      <div className="h-5 w-5 rounded-full bg-[#FEFAE0]  flex-shrink-0 flex items-center justify-center mt-0.5">
                         <Check className="h-3 w-3 text-teal-600" />
                       </div>
                       <span className="text-gray-700">{feature}</span>

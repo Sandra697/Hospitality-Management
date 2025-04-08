@@ -148,7 +148,7 @@ export default function StaffPage() {
             </TabsContent>
 
             <TabsContent value="departments" className="space-y-4">
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gasm:p-2 p-6 md:grid-cols-2 lg:grid-cols-3">
                 <Card>
                   <CardHeader className="pb-2">
                     <CardTitle>Housekeeping</CardTitle>

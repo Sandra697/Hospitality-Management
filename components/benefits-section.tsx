@@ -60,14 +60,14 @@ export default function BenefitsSection() {
   ]
 
   return (
-    <section id="benefits" className="py-24 bg-gray-50">
+    <section id="benefits" className="py-12 ">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
             Measurable Results
           </div>
-          <h2 className="text-4xl font-bold tracking-tight mb-4">Operational Benefits</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-xl font-bold tracking-tight mb-4">Operational Benefits</h2>
+          <p className="text-[0.8rem] text-gray-600 max-w-3xl mx-auto">
             See how Wrist Connect transforms hotel operations and enhances guest satisfaction with measurable results
           </p>
         </div>
@@ -76,7 +76,7 @@ export default function BenefitsSection() {
           {benefits.map((benefit, index) => (
             <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
-                <div className="h-12 w-12 rounded-lg bg-teal-100 flex items-center justify-center mb-6">
+                <div className="h-12 w-12 rounded-lg bg-[#FEFAE0]  flex items-center justify-center mb-6">
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>

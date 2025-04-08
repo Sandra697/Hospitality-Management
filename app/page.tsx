@@ -5,7 +5,7 @@ import { Clock, Users, Bell, CheckSquare, Hotel, MessageSquare } from "lucide-re
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen text-[0.8rem] font-medium p-6 text-gray-700 flex-col">
+    <div className="flex min-h-screen text-[0.8rem] font-medium sm:p-2 p-6 text-gray-700 flex-col">
       <main className="flex-1">
         <div className="container py-8">
           <div className="mb-8">
@@ -13,7 +13,7 @@ export default function Home() {
             <p className="text-[#265073] text-[0.8rem]">Monitor your hotel operations and staff in real-time</p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gasm:p-2 p-6 md:grid-cols-2 lg:grid-cols-4">
             <Card>
               <CardHeader className="pb-2">
                 <CardTitle className="text-[0.8rem] font-medium">Active Staff</CardTitle>
@@ -67,7 +67,7 @@ export default function Home() {
             </Card>
           </div>
 
-          <div className="grid gap-6 mt-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gasm:p-2 p-6 mt-6 md:grid-cols-2 lg:grid-cols-3">
             <Card className="col-span-1 lg:col-span-2">
               <CardHeader>
                 <CardTitle>Active Tasks</CardTitle>

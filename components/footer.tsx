@@ -22,7 +22,7 @@ export default function Footer() {
               industry.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-400 hover:text-teal-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-[#FEFAE0]  transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -37,7 +37,7 @@ export default function Footer() {
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                 </svg>
               </a>
-              <a href="#" className="text-gray-400 hover:text-teal-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-[#FEFAE0]  transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -52,7 +52,7 @@ export default function Footer() {
                   <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
                 </svg>
               </a>
-              <a href="#" className="text-gray-400 hover:text-teal-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-[#FEFAE0]  transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -69,7 +69,7 @@ export default function Footer() {
                   <circle cx="4" cy="4" r="2"></circle>
                 </svg>
               </a>
-              <a href="#" className="text-gray-400 hover:text-teal-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-[#FEFAE0]  transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -93,27 +93,27 @@ export default function Footer() {
             <h4 className="font-bold text-white text-lg mb-4">Product</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#features" className="hover:text-teal-400 transition-colors">
+                <Link href="#features" className="hover:text-[#FEFAE0]  transition-colors">
                   Features
                 </Link>
               </li>
               <li>
-                <Link href="#benefits" className="hover:text-teal-400 transition-colors">
+                <Link href="#benefits" className="hover:text-[#FEFAE0]  transition-colors">
                   Benefits
                 </Link>
               </li>
               <li>
-                <Link href="#pricing" className="hover:text-teal-400 transition-colors">
+                <Link href="#pricing" className="hover:text-[#FEFAE0]  transition-colors">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-teal-400 transition-colors">
+                <Link href="#" className="hover:text-[#FEFAE0]  transition-colors">
                   Case Studies
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-teal-400 transition-colors">
+                <Link href="#" className="hover:text-[#FEFAE0]  transition-colors">
                   Integrations
                 </Link>
               </li>
@@ -124,27 +124,27 @@ export default function Footer() {
             <h4 className="font-bold text-white text-lg mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="hover:text-teal-400 transition-colors">
+                <Link href="#" className="hover:text-[#FEFAE0]  transition-colors">
                   Documentation
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-teal-400 transition-colors">
+                <Link href="#" className="hover:text-[#FEFAE0]  transition-colors">
                   Support Center
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-teal-400 transition-colors">
+                <Link href="#" className="hover:text-[#FEFAE0]  transition-colors">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-teal-400 transition-colors">
+                <Link href="#" className="hover:text-[#FEFAE0]  transition-colors">
                   Webinars
                 </Link>
               </li>
               <li>
-                <Link href="#faq" className="hover:text-teal-400 transition-colors">
+                <Link href="#faq" className="hover:text-[#FEFAE0]  transition-colors">
                   FAQ
                 </Link>
               </li>
@@ -217,14 +217,14 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-[0.8rem]">© 2025 Wrist Connect. All rights reserved.</p>
-          <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="#" className="text-[0.8rem] text-gray-400 hover:text-teal-400 transition-colors">
+          <div className="flex gasm:p-2 p-6 mt-4 md:mt-0">
+            <Link href="#" className="text-[0.8rem] text-gray-400 hover:text-[#FEFAE0]  transition-colors">
               Privacy Policy
             </Link>
-            <Link href="#" className="text-[0.8rem] text-gray-400 hover:text-teal-400 transition-colors">
+            <Link href="#" className="text-[0.8rem] text-gray-400 hover:text-[#FEFAE0]  transition-colors">
               Terms of Service
             </Link>
-            <Link href="#" className="text-[0.8rem] text-gray-400 hover:text-teal-400 transition-colors">
+            <Link href="#" className="text-[0.8rem] text-gray-400 hover:text-[#FEFAE0]  transition-colors">
               Cookie Policy
             </Link>
           </div>

@@ -26,14 +26,14 @@ export default function IntegrationSection() {
   ]
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-12 ">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
             Seamless Integration
           </div>
-          <h2 className="text-4xl font-bold tracking-tight mb-4">Works With Your Existing Systems</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-xl font-bold tracking-tight mb-4">Works With Your Existing Systems</h2>
+          <p className="text-[0.8rem] text-gray-600 max-w-3xl mx-auto">
             Wrist Connect integrates with your existing hospitality systems for a unified operational experience
           </p>
         </div>

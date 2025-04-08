@@ -48,7 +48,7 @@ export default function FaqSection() {
   ]
 
   return (
-    <section id="faq" className="py-24">
+    <section id="faq" className="py-16">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
@@ -66,7 +66,7 @@ export default function FaqSection() {
                 value={`item-${index}`}
                 className="border border-gray-200 rounded-lg overflow-hidden"
               >
-                <AccordionTrigger className="px-6 py-4 hover:bg-gray-50 text-left font-medium">
+                <AccordionTrigger className="px-6 py-4 hover: text-left font-medium">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="px-6 py-4 text-gray-600">{faq.answer}</AccordionContent>

@@ -59,7 +59,7 @@ export default function TestimonialSection() {
   }
 
   return (
-    <section id="testimonials" className="py-24">
+    <section id="testimonials" className="py-12">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
@@ -100,7 +100,7 @@ export default function TestimonialSection() {
 
                 <div className="md:w-2/3">
                   <blockquote className="text-xl italic text-gray-700 relative">
-                    <span className="absolute -top-6 -left-6 text-6xl text-teal-200">"</span>
+                    <span className="absolute -tosm:p-2 p-6 -left-6 text-6xl text-teal-200">"</span>
                     {testimonials[activeIndex].quote}
                     <span className="absolute -bottom-10 -right-6 text-6xl text-teal-200">"</span>
                   </blockquote>

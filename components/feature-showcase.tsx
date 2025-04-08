@@ -231,7 +231,7 @@ export default function FeatureShowcase() {
   }
 
   return (
-    <section id="features" className="py-24">
+    <section id="features" className="py-16">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
@@ -252,11 +252,15 @@ export default function FeatureShowcase() {
                 value={key}
                 className={`flex flex-col items-center gap-2 p-4 rounded-xl data-[state=active]:bg-gradient-to-r ${feature.color} data-[state=active]:text-white h-auto`}
               >
-                <div
-                  className={`h-10 w-10 rounded-lg flex items-center justify-center ${activeTab === key ? "bg-white/20" : "bg-gray-100"}`}
-                >
-                  {feature.icon}
-                </div>
+              <div
+  className={`h-10 w-10 rounded-lg flex items-center justify-center ${
+    activeTab === key 
+      ? "bg-white/20 text-gray-600" 
+      : "bg-gray-100 text-gray-700"
+  }`}
+>
+  {feature.icon}
+</div>
                 <span className="text-xs font-medium">{feature.title}</span>
               </TabsTrigger>
             ))}
