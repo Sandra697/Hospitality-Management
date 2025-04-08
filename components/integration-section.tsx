@@ -28,7 +28,7 @@ export default function IntegrationSection() {
   return (
     <section className="py-12 ">
       <div className="container">
-        <div className="text-center mb-16">
+        <div className="text-center pb-3 mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
             Seamless Integration
           </div>
@@ -40,7 +40,7 @@ export default function IntegrationSection() {
 
         <div className="grid gap-8 md:grid-cols-2">
           {integrations.map((integration, index) => (
-            <Card key={index} className="border-none shadow-lg">
+            <Card key={index} className="border-none  pb-3 shadow-lg">
               <CardContent className="p-8">
                 <h3 className="text-xl font-bold mb-2">{integration.name}</h3>
                 <p className="text-gray-600 mb-6">{integration.description}</p>

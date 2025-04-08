@@ -22,7 +22,7 @@ export default function HeroSection() {
               Hospitality Communication System
             </div>
 
-            <h1 className="text-xl  lg:text-2xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
+            <h1 className="text-xl  lg:text-xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
               Revolutionize Hotel Staff Communication
             </h1>
 

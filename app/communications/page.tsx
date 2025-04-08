@@ -107,7 +107,7 @@ export default function CommunicationsPage() {
                 </div>
 
                 <div className="md:col-span-2">
-                  <Card className="h-full">
+                  <div className="h-full">
                     <CardHeader>
                       <CardTitle>Recent Communications</CardTitle>
                       <CardDescription>Messages sent and received in the last 24 hours</CardDescription>
@@ -115,7 +115,7 @@ export default function CommunicationsPage() {
                     <CardContent>
                       <MessageList />
                     </CardContent>
-                  </Card>
+                  </div>
                 </div>
               </div>
             </TabsContent>

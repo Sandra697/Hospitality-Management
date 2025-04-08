@@ -13,7 +13,7 @@ export default function Home() {
             <p className="text-[#265073] text-[0.8rem]">Monitor your hotel operations and staff in real-time</p>
           </div>
 
-          <div className="grid gap-6 sm:p-6 p-2  md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-2 sm:p-6 p-2  md:grid-cols-2 lg:grid-cols-4">
             <Card>
               <CardHeader className="pb-2">
                 <CardTitle className="text-[0.8rem] font-medium">Active Staff</CardTitle>
@@ -136,7 +136,7 @@ export default function Home() {
                     <div key={task.id} className="flex items-center justify-between border-b pb-3">
                       <div>
                         <h4 className="font-medium text-[#3D0301] text-[0.75rem]">{task.title}</h4>
-                        <div className="flex items-center gap-6 mt-1">
+                        <div className="flex items-center gap-2 mt-1">
                           <span className="text-xs text-gray-500">Assigned to: {task.assignee}</span>
                           <span
                             className={`text-xs px-2 py-0.5 rounded-full ${
