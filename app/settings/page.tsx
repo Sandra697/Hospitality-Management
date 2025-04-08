@@ -140,7 +140,7 @@ export default function SettingsPage() {
 
                   <div className="space-y-2">
                     <Label>Hotel Facilities</Label>
-                    <div className="grid grid-cols-2 gap-2">
+                    <div className="grid grid-cols-2 gap-6">
                       <div className="flex items-center space-x-2">
                         <input type="checkbox" id="facility-pool" className="rounded border-gray-300" defaultChecked />
                         <label htmlFor="facility-pool" className="text-[0.8rem]">

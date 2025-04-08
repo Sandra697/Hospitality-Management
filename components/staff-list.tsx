@@ -124,7 +124,7 @@ export default function StaffList() {
 
             <div>
               <h4 className="font-medium min-w-[300px] max-w-[300px]">{staff.name}</h4>
-              <div className="flex flex-wrap min-w-[300px] max-w-[300px] items-center gap-2 mt-1">
+              <div className="flex flex-wrap min-w-[300px] max-w-[300px] items-center gap-6 mt-1">
                 <span className="text-[0.8rem] text-gray-500">{staff.role}</span>
                 <Badge variant={staff.status === "Active" ? "default" : "outline"}>{staff.status}</Badge>
               </div>
@@ -153,7 +153,7 @@ export default function StaffList() {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-6">
             <Button variant="outline" size="sm">
               <MessageSquare className="h-4 w-4 mr-2" />
               Message

@@ -28,7 +28,7 @@ export default function StaffPage() {
               <Input placeholder="Search staff..." className="pl-8" />
               <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-gray-500" />
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-6">
               <Button variant="outline" size="sm">
                 Department
               </Button>
@@ -130,7 +130,7 @@ export default function StaffPage() {
                             </div>
                           </div>
                         </div>
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-6">
                           <div className="text-[0.8rem] text-[#690B22] flex items-center">
                             <MapPin className="h-4 w-4 mr-1" />
                             {staff.location}
@@ -148,7 +148,7 @@ export default function StaffPage() {
             </TabsContent>
 
             <TabsContent value="departments" className="space-y-4">
-              <div className="grid gasm:p-2 p-6 md:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-6 sm:p-6 p-2  md:grid-cols-2 lg:grid-cols-3">
                 <Card>
                   <CardHeader className="pb-2">
                     <CardTitle>Housekeeping</CardTitle>
@@ -282,7 +282,7 @@ export default function StaffPage() {
             </TabsContent>
 
             <TabsContent value="performance" className="space-y-4">
-              <Card>
+              <div>
                 <CardHeader>
                   <CardTitle>Staff Performance Metrics</CardTitle>
                   <CardDescription>Track and analyze staff efficiency and response times</CardDescription>
@@ -290,7 +290,7 @@ export default function StaffPage() {
                 <CardContent>
                   <StaffPerformance />
                 </CardContent>
-              </Card>
+              </div>
             </TabsContent>
           </Tabs>
         </div>

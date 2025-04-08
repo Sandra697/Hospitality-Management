@@ -70,7 +70,7 @@ export default function MessageList() {
             </Avatar>
 
             <div className="flex-1">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-6">
                 <h4 className="font-medium">{message.sender.name}</h4>
                 <Badge
                   variant={

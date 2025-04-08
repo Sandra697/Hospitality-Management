@@ -9,7 +9,7 @@ export default function HeroSection() {
   const [demoOpen, setDemoOpen] = useState(false)
 
   return (
-    <section className="relative pt-20 pb-24  overflow-hidden sm:p-2 p-6">
+    <section className="relative pt-20 pb-24  overflow-hidden  sm:p-6 p-2 ">
       {/* Background elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white pointer-events-none"></div>
       <div className="absolute top-40 right-[20%] w-64 h-64 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
@@ -32,7 +32,7 @@ export default function HeroSection() {
             </p>
 
             <div className="space-y-4 mb-8">
-              <div className="flex items-start gap-2 text-left">
+              <div className="flex items-start gap-6 text-left">
                 <CheckCircle2 className="h-5 w-5 text-teal-500 mt-0.5 flex-shrink-0" />
                 <p className="text-gray-600">
                   <span className="font-medium">60% faster response times</span> with instant notifications delivered
@@ -40,7 +40,7 @@ export default function HeroSection() {
                 </p>
               </div>
 
-              <div className="flex items-start gap-2 text-left">
+              <div className="flex items-start gap-6 text-left">
                 <CheckCircle2 className="h-5 w-5 text-teal-500 mt-0.5 flex-shrink-0" />
                 <p className="text-gray-600">
                   <span className="font-medium">Seamless two-way communication</span> between all departments and staff
@@ -48,7 +48,7 @@ export default function HeroSection() {
                 </p>
               </div>
 
-              <div className="flex items-start gap-2 text-left">
+              <div className="flex items-start gap-6 text-left">
                 <CheckCircle2 className="h-5 w-5 text-teal-500 mt-0.5 flex-shrink-0" />
                 <p className="text-gray-600">
                   <span className="font-medium">AI-powered task prioritization</span> ensures critical needs are

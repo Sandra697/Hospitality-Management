@@ -5,7 +5,7 @@ import { Clock, Users, Bell, CheckSquare, Hotel, MessageSquare } from "lucide-re
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen text-[0.8rem] font-medium sm:p-2 p-6 text-gray-700 flex-col">
+    <div className="flex min-h-screen text-[0.8rem] font-medium  sm:p-6 p-2  text-gray-700 flex-col">
       <main className="flex-1">
         <div className="container py-8">
           <div className="mb-8">
@@ -13,7 +13,7 @@ export default function Home() {
             <p className="text-[#265073] text-[0.8rem]">Monitor your hotel operations and staff in real-time</p>
           </div>
 
-          <div className="grid gasm:p-2 p-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 sm:p-6 p-2  md:grid-cols-2 lg:grid-cols-4">
             <Card>
               <CardHeader className="pb-2">
                 <CardTitle className="text-[0.8rem] font-medium">Active Staff</CardTitle>
@@ -67,7 +67,7 @@ export default function Home() {
             </Card>
           </div>
 
-          <div className="grid gasm:p-2 p-6 mt-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:p-6 p-2  mt-6 md:grid-cols-2 lg:grid-cols-3">
             <Card className="col-span-1 lg:col-span-2">
               <CardHeader>
                 <CardTitle>Active Tasks</CardTitle>
@@ -136,7 +136,7 @@ export default function Home() {
                     <div key={task.id} className="flex items-center justify-between border-b pb-3">
                       <div>
                         <h4 className="font-medium text-[#3D0301] text-[0.75rem]">{task.title}</h4>
-                        <div className="flex items-center gap-2 mt-1">
+                        <div className="flex items-center gap-6 mt-1">
                           <span className="text-xs text-gray-500">Assigned to: {task.assignee}</span>
                           <span
                             className={`text-xs px-2 py-0.5 rounded-full ${

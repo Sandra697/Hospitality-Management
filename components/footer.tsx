@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center gap-6 mb-4">
               <div className="relative h-10 w-10">
                 <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-xl"></div>
                 <div className="absolute inset-[2px] bg-gray-900 rounded-lg flex items-center justify-center">
@@ -154,7 +154,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white text-lg mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="flex items-start gap-2">
+              <li className="flex items-start gap-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -171,7 +171,7 @@ export default function Footer() {
                 </svg>
                 <span>+1 (555) 123-4567</span>
               </li>
-              <li className="flex items-start gap-2">
+              <li className="flex items-start gap-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -189,7 +189,7 @@ export default function Footer() {
                 </svg>
                 <span>info@wristconnect.com</span>
               </li>
-              <li className="flex items-start gap-2">
+              <li className="flex items-start gap-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -217,7 +217,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-[0.8rem]">© 2025 Wrist Connect. All rights reserved.</p>
-          <div className="flex gasm:p-2 p-6 mt-4 md:mt-0">
+          <div className="flex gap-6 sm:p-6 p-2  mt-4 md:mt-0">
             <Link href="#" className="text-[0.8rem] text-gray-400 hover:text-[#FEFAE0]  transition-colors">
               Privacy Policy
             </Link>

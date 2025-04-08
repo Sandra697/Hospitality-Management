@@ -26,7 +26,7 @@ export default function Watch() {
     <div className="flex overflow-y-hidden min-h-s
     creen flex-col font-medium text-[0.8rem] ">
 
-      <main className="flex-1 overflow-x-hidden sm:p-2 p-6  pt-10">
+      <main className="flex-1 overflow-x-hidden  sm:p-6 p-2   pt-10">
         <HeroSection />
 
         {/* <ClientLogos /> */}

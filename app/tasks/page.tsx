@@ -47,7 +47,7 @@ export default function TasksPage() {
                 Filter
               </Button>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-6">
               <Label htmlFor="sort" className="text-[0.8rem]">
                 Sort by:
               </Label>
@@ -85,7 +85,7 @@ export default function TasksPage() {
             </TabsList>
 
             <TabsContent value="all" className="space-y-4">
-              <div className="grid gasm:p-2 p-6 md:grid-cols-2">
+              <div className="grid gap-6 sm:p-6 p-2  md:grid-cols-2">
                 <Card>
                   <CardHeader>
                     <CardTitle>Drop Tasks</CardTitle>

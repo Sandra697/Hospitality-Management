@@ -245,12 +245,12 @@ export default function FeatureShowcase() {
         </div>
 
         <Tabs defaultValue="communication" value={activeTab} onValueChange={setActiveTab} className="space-y-12">
-          <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 bg-transparent h-auto p-0">
+          <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 bg-transparent h-auto p-0">
             {Object.entries(features).map(([key, feature]) => (
               <TabsTrigger
                 key={key}
                 value={key}
-                className={`flex flex-col items-center gap-2 p-4 rounded-xl data-[state=active]:bg-gradient-to-r ${feature.color} data-[state=active]:text-white h-auto`}
+                className={`flex flex-col items-center gap-6 p-4 rounded-xl data-[state=active]:bg-gradient-to-r ${feature.color} data-[state=active]:text-white h-auto`}
               >
               <div
   className={`h-10 w-10 rounded-lg flex items-center justify-center ${
@@ -267,7 +267,7 @@ export default function FeatureShowcase() {
           </TabsList>
 
           {Object.entries(features).map(([key, feature]) => (
-            <TabsContent key={key} value={key} className="mt-12">
+            <TabsContent key={key} value={key} className="mt-12 min-h-[50vh] overflow-y-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <h3 className="text-xl font-bold mb-4">{feature.title}</h3>

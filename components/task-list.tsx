@@ -108,7 +108,7 @@ export default function TaskList({ filter }: TaskListProps) {
               </div>
 
               <div className="flex-1">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-6">
                   <h4 className="font-medium">{task.title}</h4>
                   <Badge
                     variant={
@@ -129,7 +129,7 @@ export default function TaskList({ filter }: TaskListProps) {
           </div>
 
           <div className="flex items-center justify-between md:justify-end gap-4">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-6">
               <Avatar className="h-8 w-8">
                 <AvatarImage src={task.assignee.avatar} alt={task.assignee.name} />
                 <AvatarFallback>
@@ -142,7 +142,7 @@ export default function TaskList({ filter }: TaskListProps) {
               <div className="text-[0.8rem]">{task.assignee.name}</div>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-6">
               <Badge
                 variant={
                   task.status === "Completed" ? "outline" : task.status === "In Progress" ? "secondary" : "default"

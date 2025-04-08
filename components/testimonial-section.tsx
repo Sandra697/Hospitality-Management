@@ -100,7 +100,7 @@ export default function TestimonialSection() {
 
                 <div className="md:w-2/3">
                   <blockquote className="text-xl italic text-gray-700 relative">
-                    <span className="absolute -tosm:p-2 p-6 -left-6 text-6xl text-teal-200">"</span>
+                    <span className="absolute -to sm:p-6 p-2  -left-6 text-6xl text-teal-200">"</span>
                     {testimonials[activeIndex].quote}
                     <span className="absolute -bottom-10 -right-6 text-6xl text-teal-200">"</span>
                   </blockquote>
@@ -109,7 +109,7 @@ export default function TestimonialSection() {
             </CardContent>
           </Card>
 
-          <div className="flex justify-center mt-8 gap-2">
+          <div className="flex justify-center mt-8 gap-6">
             <Button variant="outline" size="icon" onClick={prevTestimonial} className="rounded-full shadow-md">
               <ChevronLeft className="h-5 w-5" />
             </Button>

@@ -106,7 +106,7 @@ export default function Sidebar() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="flex items-center justify-center sm:p-2 p-6">
+        <div className="flex items-center justify-center  sm:p-6 p-2 ">
           <img
             src="https://res.cloudinary.com/dunssu2gi/image/upload/v1744056928/blog-images/z2l2dmh5muyqzqwo2igr.png"
             alt="HotelSync Logo"

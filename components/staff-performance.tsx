@@ -156,7 +156,7 @@ export default function StaffPerformance() {
         <div className="space-y-6">
           {performanceData.map((staff) => (
             <div key={staff.id} className="space-y-2">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-6">
                 <Avatar>
                   <AvatarImage src={staff.avatar} alt={staff.name} />
                   <AvatarFallback>

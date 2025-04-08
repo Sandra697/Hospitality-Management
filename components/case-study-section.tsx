@@ -92,7 +92,7 @@ export default function CaseStudySection() {
             </div>
 
             {/* Stats overlay */}
-            <div className="absolute -bottom-8 -right-8 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-lg sm:p-2 p-6 shadow-xl">
+            <div className="absolute -bottom-8 -right-8 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-lg  sm:p-6 p-2  shadow-xl">
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <div className="text-4xl font-bold">58%</div>

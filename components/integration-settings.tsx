@@ -77,7 +77,7 @@ export default function IntegrationSettings() {
             <CardContent className="p-4">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div className="space-y-1">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <h4 className="font-medium">{integration.name}</h4>
                     {integration.connected ? (
                       <span className="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800">
@@ -110,7 +110,7 @@ export default function IntegrationSettings() {
                     </div>
                   )}
 
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <Switch
                       id={`toggle-${integration.id}`}
                       checked={integration.connected}
@@ -170,7 +170,7 @@ export default function IntegrationSettings() {
                 </select>
               </div>
 
-              <div className="flex justify-end gap-2">
+              <div className="flex justify-end gap-6">
                 <Button variant="outline">Sync Now</Button>
                 <Button>Save Settings</Button>
               </div>

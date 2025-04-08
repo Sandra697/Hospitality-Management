@@ -13,7 +13,7 @@ export default function CommunicationsPage() {
       <header className="sticky top-0 z-10 ">
         <div className="container flex h-16 px-4 items-center justify-between py-4">
           <h1 className="text-xl font-bold"></h1>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-6">
             <Button variant="outline">
               <Users className="h-4 w-4 mr-2" />
               Staff Groups
@@ -42,7 +42,7 @@ export default function CommunicationsPage() {
             </TabsList>
 
             <TabsContent value="messages" className="space-y-4">
-              <div className="grid gasm:p-2 p-6 md:grid-cols-3">
+              <div className="grid gap-6 sm:p-6 p-2  md:grid-cols-3">
                 <div className="md:col-span-1">
                   <Card>
                     <CardHeader>

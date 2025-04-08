@@ -167,7 +167,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                 <div className="text-[10px] opacity-80 mt-1">Status: In Progress</div>
                 <div className="text-[10px] opacity-80">Time accepted: Just now</div>
                 <div className="text-[10px] opacity-80 mt-1">ETA: 15 minutes</div>
-                <div className="flex justify-between items-center mt-3 gap-2">
+                <div className="flex justify-between items-center mt-3 gap-6">
                   <button className="bg-white/20 text-[10px] px-2 py-1 rounded flex-1">Update</button>
                   <button className="bg-green-500 text-[10px] px-2 py-1 rounded flex-1">Complete</button>
                 </div>
@@ -194,7 +194,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                 <div className="text-[10px] opacity-80 mt-1">Status: In Progress</div>
                 <div className="text-[10px] opacity-80">Time accepted: Just now</div>
                 <div className="text-[10px] opacity-80 mt-1">ETA: 15 minutes</div>
-                <div className="flex justify-between items-center mt-3 gap-2">
+                <div className="flex justify-between items-center mt-3 gap-6">
                   <button className="bg-white/20 text-[10px] px-2 py-1 rounded flex-1">Update</button>
                   <button className="bg-green-500 text-[10px] px-2 py-1 rounded flex-1 border-2 border-white">
                     Complete
@@ -554,7 +554,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
           screen: (
             <div className="space-y-2">
               <div className="text-[10px] text-teal-300 font-medium">DASHBOARD</div>
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-2 gap-6">
                 <button className="bg-white/10 rounded-lg p-2 flex flex-col items-center justify-center">
                   <MessageSquare className="h-5 w-5 mb-1" />
                   <span className="text-[8px]">Messages</span>
@@ -588,7 +588,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                 </button>
                 <div className="text-[10px] text-red-300 font-medium">EMERGENCY PROTOCOLS</div>
               </div>
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-2 gap-6">
                 <button className="bg-red-500/20 rounded-lg p-2 flex flex-col items-center justify-center border-2 border-red-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -685,7 +685,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                   <div className="text-[10px] opacity-80">This will notify all staff</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[10px] w-20">Location:</div>
                     <select className="bg-black/30 text-[10px] p-1 rounded flex-1 border border-white/20">
                       <option>Select location</option>
@@ -697,7 +697,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                       <option>Lobby</option>
                     </select>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[10px] w-20">Floor:</div>
                     <select className="bg-black/30 text-[10px] p-1 rounded flex-1 border border-white/20">
                       <option>Select floor</option>
@@ -708,7 +708,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                       <option>4th Floor</option>
                     </select>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[10px] w-20">Severity:</div>
                     <select className="bg-black/30 text-[10px] p-1 rounded flex-1 border border-white/20">
                       <option>Select severity</option>
@@ -811,7 +811,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
           screen: (
             <div className="space-y-2">
               <div className="text-[10px] text-teal-300 font-medium">DASHBOARD</div>
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-2 gap-6">
                 <button className="bg-white/10 rounded-lg p-2 flex flex-col items-center justify-center">
                   <MessageSquare className="h-5 w-5 mb-1" />
                   <span className="text-[8px]">Messages</span>
@@ -1001,7 +1001,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                   </div>
                 </div>
 
-                <div className="flex justify-between mt-4 gap-2">
+                <div className="flex justify-between mt-4 gap-6">
                   <button className="bg-white/20 text-[10px] px-2 py-1 rounded flex-1 flex items-center justify-center gap-1">
                     <MessageSquare className="h-3 w-3" />
                     <span>Message</span>
@@ -1062,7 +1062,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                   </div>
                 </div>
 
-                <div className="flex justify-between mt-4 gap-2">
+                <div className="flex justify-between mt-4 gap-6">
                   <button className="bg-white/20 text-[10px] px-2 py-1 rounded flex-1 flex items-center justify-center gap-1">
                     <MessageSquare className="h-3 w-3" />
                     <span>Message</span>
@@ -1091,7 +1091,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
               </div>
               <div className="bg-white/10 rounded-lg p-3">
                 <div className="text-[10px] mb-1">Assigning to:</div>
-                <div className="flex items-center gap-2 mb-3 bg-white/10 p-1 rounded">
+                <div className="flex items-center gap-6 mb-3 bg-white/10 p-1 rounded">
                   <div className="h-5 w-5 bg-amber-500 rounded-full flex items-center justify-center text-[8px] font-bold">
                     H
                   </div>
@@ -1383,27 +1383,27 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
               <div className="bg-white/10 rounded-lg p-2">
                 <div className="text-[10px] font-medium mb-2">Housekeeping Team Ranking</div>
                 <div className="space-y-2">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[8px] font-medium w-5">1.</div>
                     <div className="text-[8px] flex-1">Sarah Johnson</div>
                     <div className="text-[8px] w-12 text-right">12.4 tasks/day</div>
                   </div>
-                  <div className="flex items-center gap-2 bg-teal-500/20 p-1 rounded">
+                  <div className="flex items-center gap-6 bg-teal-500/20 p-1 rounded">
                     <div className="text-[8px] font-medium w-5">2.</div>
                     <div className="text-[8px] flex-1">You</div>
                     <div className="text-[8px] w-12 text-right">10.8 tasks/day</div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[8px] font-medium w-5">3.</div>
                     <div className="text-[8px] flex-1">Michael Chen</div>
                     <div className="text-[8px] w-12 text-right">9.6 tasks/day</div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[8px] font-medium w-5">4.</div>
                     <div className="text-[8px] flex-1">Elena Rodriguez</div>
                     <div className="text-[8px] w-12 text-right">9.2 tasks/day</div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[8px] font-medium w-5">5.</div>
                     <div className="text-[8px] flex-1">David Kim</div>
                     <div className="text-[8px] w-12 text-right">8.7 tasks/day</div>
@@ -1414,27 +1414,27 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
               <div className="bg-white/10 rounded-lg p-2">
                 <div className="text-[10px] font-medium mb-2">Response Time Comparison</div>
                 <div className="space-y-2">
-                  <div className="flex items-center gap-2 bg-teal-500/20 p-1 rounded">
+                  <div className="flex items-center gap-6 bg-teal-500/20 p-1 rounded">
                     <div className="text-[8px] font-medium w-5">1.</div>
                     <div className="text-[8px] flex-1">You</div>
                     <div className="text-[8px] w-12 text-right">2.3 min</div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[8px] font-medium w-5">2.</div>
                     <div className="text-[8px] flex-1">Sarah Johnson</div>
                     <div className="text-[8px] w-12 text-right">2.5 min</div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[8px] font-medium w-5">3.</div>
                     <div className="text-[8px] flex-1">Elena Rodriguez</div>
                     <div className="text-[8px] w-12 text-right">2.8 min</div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[8px] font-medium w-5">4.</div>
                     <div className="text-[8px] flex-1">Michael Chen</div>
                     <div className="text-[8px] w-12 text-right">3.1 min</div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-6">
                     <div className="text-[8px] font-medium w-5">5.</div>
                     <div className="text-[8px] flex-1">David Kim</div>
                     <div className="text-[8px] w-12 text-right">3.4 min</div>
@@ -1534,7 +1534,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
           <DialogDescription>See how Wrist Connect works in real-world scenarios</DialogDescription>
         </DialogHeader>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gasm:p-2 p-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:p-6 p-2 ">
           <div className="md:col-span-1">
             <div className="space-y-4">
               <h3 className="text-lg font-medium">Scenarios</h3>
@@ -1542,7 +1542,7 @@ export default function WatchDemo({ open, onOpenChange }: WatchDemoProps) {
                 {Object.entries(scenarios).map(([key, scenario]) => (
                   <button
                     key={key}
-                    className={`flex items-center gap-2 w-full p-2 rounded-md text-left ${
+                    className={`flex items-center gap-6 w-full p-2 rounded-md text-left ${
                       currentScenario === key
                         ? "bg-[#FEFAE0]  text-[#DCA47C] "
                         : "bg-gray-100 hover:bg-gray-200 text-gray-800"
