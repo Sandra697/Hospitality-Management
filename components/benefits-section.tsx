@@ -60,7 +60,7 @@ export default function BenefitsSection() {
   ]
 
   return (
-    <section id="benefits" className="py-12 ">
+    <section id="benefits" className="py-12 sm:px-16 ">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">

@@ -231,7 +231,7 @@ export default function FeatureShowcase() {
   }
 
   return (
-    <section id="features" className="py-8 px-6">
+    <section id="features" className="py-8 sm:px-16">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
@@ -244,7 +244,8 @@ export default function FeatureShowcase() {
           </p>
         </div>
 
-        <Tabs defaultValue="communication" value={activeTab} onValueChange={setActiveTab} className="space-y-12">
+        <Tabs defaultValue="communication" value={activeTab} onValueChange={setActiveTab} className="space-y-6 sm:mb-6 sm:px-16
+        ">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 bg-transparent h-auto p-0">
             {Object.entries(features).map(([key, feature]) => (
               <TabsTrigger
@@ -267,7 +268,7 @@ export default function FeatureShowcase() {
           </TabsList>
 
           {Object.entries(features).map(([key, feature]) => (
-            <TabsContent key={key} value={key} className="mt-12 min-h-[50vh] overflow-y-hidden">
+            <TabsContent key={key} value={key} className="mt-12 min-h-[60vh]  overflow-y-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <h3 className="text-xl font-bold mb-4">{feature.title}</h3>

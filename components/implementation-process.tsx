@@ -47,7 +47,7 @@ export default function ImplementationProcess() {
   ]
 
   return (
-    <section className="py-8">
+    <section className="py-8 sm:px-16">
       <div className="container">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
@@ -61,14 +61,14 @@ export default function ImplementationProcess() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {steps.map((step, index) => (
-            <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow">
+            <Card key={index} className="border-none pb-2 shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
                   <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-emerald-500">
                     {step.number}
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                    <h3 className="text-[0.9rem] font-bold mb-2">{step.title}</h3>
                     <p className="text-gray-600 font-medium mb-2">{step.description}</p>
                     <p className="text-gray-500 text-[0.8rem]">{step.details}</p>
                   </div>

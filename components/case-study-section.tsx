@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function CaseStudySection() {
   return (
-    <section className="py-16 px-6 rounded-md bg-gradient-to-r p-6 from-gray-900 to-gray-800 text-white">
+    <section className="py-16 px-2 sm:mx-8 sm:px-16 rounded-md bg-gradient-to-r p-6 from-gray-900 to-gray-800 text-white">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>

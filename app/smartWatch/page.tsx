@@ -25,9 +25,22 @@ export default function Watch() {
   return (
     <div className="flex overflow-y-hidden min-h-s
     creen flex-col font-medium text-[0.8rem] ">
+
       
 
       <main className="flex-1 overflow-x-hidden  sm:p-6 p-2   pt-10">
+      <div className="container py-8">
+      <div className="text-center pb-3 mb-6">
+          <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-[0.8rem] font-medium mb-4">
+          Seamless Communication at Your Fingertips
+          </div>
+          <h2 className="text-xl font-bold tracking-tight mb-4">Wrist Connect transforms how hotel staff collaborate and respond to guest needs.</h2>
+          <p className="text-[0.8rem] text-gray-600 max-w-3xl mx-auto">
+          With instant alerts, task management, and two-way communication all delivered through an intuitive smartwatch interface, your team can provide exceptional service without delays.
+          </p>
+        </div>
+         
+          </div>
         <HeroSection />
 
         {/* <ClientLogos /> */}
@@ -48,7 +61,7 @@ export default function Watch() {
 
         {/* <FaqSection /> */}
 
-        <section className="py-12 bg-gradient-to-r from-teal-500 to-emerald-500">
+        <section className="py-12 sm:mx-16 bg-gradient-to-r from-teal-500 to-emerald-500">
           <div className="container">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h2 className="text-4xl font-bold tracking-tight mb-6">Ready to Transform Your Hotel Operations?</h2>

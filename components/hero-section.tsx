@@ -9,13 +9,13 @@ export default function HeroSection() {
   const [demoOpen, setDemoOpen] = useState(false)
 
   return (
-    <section className="relative pt-20 pb-24  overflow-hidden  sm:p-6 p-2 ">
+    <section className="relative pt-20 pb-24  overflow-hidden sm:px-20 p-2 ">
       {/* Background elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white pointer-events-none"></div>
       <div className="absolute top-40 right-[20%] w-64 h-64 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
       <div className="absolute bottom-40 left-[20%] w-72 h-72 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
 
-      <div className="container relative">
+      <div className="container relative sm:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="text-center lg:text-left">
             <div className="inline-block px-3 py-1 rounded-full bg-teal-50 text-teal-600 text-sm font-medium mb-6">
@@ -74,13 +74,13 @@ export default function HeroSection() {
           </div>
 
           <div className="relative">
-            <div className="relative z-10 mx-auto lg:ml-auto lg:mr-0 max-w-md">
-              <div className="aspect-square relative rounded-[2.5rem] overflow-hidden shadow-2xl border-[12px] border-gray-900">
+            <div className="relative z-10 mx-auto lg:ml-auto lg:mr-0 max-w-sm">
+              <div className="aspect-square relative rounded-2xl overflow-hidden shadow-2xl border-8 border-gray-900">
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
                   {/* Watch bezel */}
-                  <div className="w-[90%] h-[90%] rounded-[2rem] bg-gradient-to-br from-gray-700 to-gray-800 p-4 flex flex-col items-center justify-center">
+                  <div className="w-[90%] h-[90%] rounded-xl bg-gradient-to-br from-gray-700 to-gray-800 p-3 flex flex-col items-center justify-center">
                     {/* Watch screen */}
-                    <div className="w-full h-full bg-black rounded-[1.5rem] overflow-hidden relative flex flex-col">
+                    <div className="w-full h-full bg-black rounded-lg overflow-hidden relative flex flex-col">
                       <div className="absolute inset-0 flex flex-col text-white p-3">
                         <div className="text-xs font-medium mb-1 flex justify-between items-center">
                           <span>10:42 AM</span>
@@ -158,7 +158,7 @@ export default function HeroSection() {
               </div>
 
               {/* Watch band */}
-              <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 w-[60%] h-32 bg-gradient-to-b from-gray-700 to-gray-800 rounded-b-3xl"></div>
+              <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 w-[60%] h-24 bg-gradient-to-b from-gray-700 to-gray-800 rounded-b-2xl"></div>
             </div>
 
             {/* Decorative elements */}
@@ -173,4 +173,3 @@ export default function HeroSection() {
     </section>
   )
 }
-
