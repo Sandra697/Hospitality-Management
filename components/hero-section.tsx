@@ -4,10 +4,11 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, CheckCircle2 } from "lucide-react"
 import WatchDemo from "@/components/watchDemo"
+import TryNowWatch from "@/components/tryNow"
 
 export default function HeroSection() {
   const [demoOpen, setDemoOpen] = useState(false)
-
+  const [tryNowWatchOpen, setTryNowWatchOpen] = useState(false)
   return (
     <section className="relative pt-20 pb-24  overflow-hidden sm:px-20 p-2 ">
       {/* Background elements */}
@@ -68,6 +69,14 @@ export default function HeroSection() {
               <Button size="lg" variant="outline" className="font-medium" onClick={() => setDemoOpen(true)}>
                 Watch Demo
               </Button>
+              <Button
+                  size="lg"
+                  variant="secondary"
+                  className="text-red-600 bg-red-100 font-medium"
+                  onClick={() => setTryNowWatchOpen(true)}
+                >
+                  Try Watch Now
+                </Button>
             </div>
 
             <div className="mt-8 text-sm text-gray-500">Trusted by 500+ hotels worldwide</div>
@@ -170,6 +179,7 @@ export default function HeroSection() {
 
       {/* Interactive Watch Demo Modal */}
       <WatchDemo open={demoOpen} onOpenChange={setDemoOpen} />
+       <TryNowWatch open={tryNowWatchOpen} onOpenChange={setTryNowWatchOpen} />
     </section>
   )
 }

@@ -16,11 +16,13 @@ import IntegrationSection from "@/components/integration-section"
 import CaseStudySection from "@/components/case-study-section"
 // import Footer from "@/components/footer"
 import WatchDemo from "@/components/watchDemo"
+import TryNowWatch from "@/components/tryNow"
 // import { Menu, X } from "lucide-react"
 
 export default function Watch() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [demoOpen, setDemoOpen] = useState(false)
+  const [tryNowWatchOpen, setTryNowWatchOpen] = useState(false)
 
   return (
     <div className="flex overflow-y-hidden min-h-s
@@ -78,6 +80,14 @@ export default function Watch() {
                 >
                   Watch Interactive Demo
                 </Button>
+                <Button
+                  size="lg"
+                  variant="secondary"
+                  className="text-teal-600 font-medium"
+                  onClick={() => setTryNowWatchOpen(true)}
+                >
+                  Try Watch Now
+                </Button>
                 <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 font-medium">
                   Contact Sales
                 </Button>
@@ -91,6 +101,7 @@ export default function Watch() {
 
       {/* Interactive Watch Demo Modal */}
       <WatchDemo open={demoOpen} onOpenChange={setDemoOpen} />
+      <TryNowWatch open={tryNowWatchOpen} onOpenChange={setTryNowWatchOpen} />
     </div>
   )
 }
